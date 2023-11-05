@@ -21,7 +21,7 @@ The steps it goes through once you have selected an MSI and entered other parame
 * Next checks to see if software you are deploying is already installed
 * (Optionally) Checks to see if a process is running (useful in cases where install will fail if app already open or another related process running)
 * Then it will deploy the MSI
-* Finally (optionally) shows a toast notification on the computer
+* Finally (optionally) shows a toast notification on the remote computer(s)
 
 ***
 

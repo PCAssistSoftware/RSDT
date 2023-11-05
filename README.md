@@ -19,9 +19,9 @@ The steps it goes through once you have selected an MSI and entered other parame
 * Firstly checks the computer(s) are online
 * Then checks they can be accessed remotely (requires psremoting to be enabled on client computers)
 * Next checks to see if software you are deploying is already installed
-* Optionally checks to see if a process is running (useful in cases where install will fail if app already open or another related process running)
+* (Optionally) Checks to see if a process is running (useful in cases where install will fail if app already open or another related process running)
 * Then it will deploy the MSI
-* Finally optionally shows a toast notification on the computer
+* Finally (optionally) shows a toast notification on the computer
 
 ***
 

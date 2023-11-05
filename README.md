@@ -35,5 +35,5 @@ The steps it goes through once you have selected an MSI and entered other parame
 * Show error code for MSI failures e.g. 1602, 1603 etc - either in separate column or as a tooltip in Deploy Software column for any Deploy Failed entries
 * Optionally add switch to MSIEXEC to create log and find way to pull back log content on MSI failure
 * Finish adding cancellation to rest of the stages, only working for some of them so far, need to find way to do it for port test and to get that and Get-ADComputers working in same ways as other stages
-* Add 
+
 

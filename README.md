@@ -23,4 +23,8 @@ The steps it goes through once you have selected an MSI and entered other parame
 * Then it will deploy the MSI
 * Finally optionally shows a toast notification on the computer
 
+***
+
+![Screenshot](https://github.com/PCAssistSoftware/RSDT/blob/master/screenshot.png)
+
 

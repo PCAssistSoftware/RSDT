@@ -27,4 +27,13 @@ The steps it goes through once you have selected an MSI and entered other parame
 
 ![Screenshot](https://github.com/PCAssistSoftware/RSDT/blob/master/screenshot.png)
 
+***
+
+## FUTURE
+
+* Add support for EXE - change browse button code so it allows selection of EXE or MSI and automatically detects extension of file chosen to then amend ScriptBlock in Public Async Function DeploySoftware to add correct command and switches depending on whether EXE or MSI
+* Show error code for MSI failures e.g. 1602, 1603 etc - either in separate column or as a tooltip in Deploy Software column for any Deploy Failed entries
+* Optionally add switch to MSIEXEC to create log and find way to pull back log content on MSI failure
+* Finish adding cancellation to rest of the stages, only working for some of them so far, need to find way to do it for port test and to get that and Get-ADComputers working in same ways as other stages
+* Add 
 
